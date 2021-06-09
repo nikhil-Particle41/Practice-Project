@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+.carousel .item {
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+.navbar-main{
+  justify-content: space-around;
+  z-index: 1;
+  padding: 1.5rem 0;
+}
+.navbar{
+ min-height: 77px;
+ background: none;
+ font-size: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-inverse{
+  margin-right:15px;
+  margin-left: 15px;
+  background-color: #362641;/*rgb(75, 155, 134);*/
+  padding: 0rem 2rem;
+  opacity: 0.9;
+  border-color:none!important;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  color: #ccc7b0 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.navbar-inverse .navbar-brand {
+  color: #ffd66a;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color:#fff;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  color: #ccc7b0 !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: transparent;
+}
+
+/* accordion section */
+.section_1{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #ffd66a;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section_1 .text-wrapper{
+  /* display: flex;
+  flex-direction: column; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 484px;
+}
+
+.display-4 {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: .37px;
+}
+
+.section_1 .section-subtitle {
+ color: #362641;
+}
+
+#accordion{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.accordion {
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+border-bottom: 1px solid #000;
+justify-content: space-between;
+align-items: center;
+}
+
+.active, .accordion:hover {
+/*background-color: #ccc; */
+}
+
+.panel {
+padding: 0 18px;
+display: none;
+background-color: transparent;
+overflow: hidden;
+box-shadow: none;
+}
+
+.panel p{
+  font-size: 15px;
+  line-height: 2;
+  letter-spacing: 0.7px;
+}
+/* accordion section */ 
+
+/* section 2 */ 
+.section_2{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #362641;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.section_2 .text-wrapper{
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 484px;
+  color:#fff;
+}
+
+.section_2 .section-head .section-subtitle{
+  text-align: center;
+  color: #ffd66a;
+  font-size: 30px;
+}
+/* section 2 */ 
+
+/* section 3 */ 
+.section_3{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #ffd66a;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_3 h4{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* section 3 */
+
+.footer{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #725686;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  color:#fff;
+}
+
+.footer .text-wrapper{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer .display-4{
+  list-style-type: none;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.contact{
+  margin-top:80px;
+  margin-bottom: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.conatct-form{
+  margin-top: 50px;
 }
