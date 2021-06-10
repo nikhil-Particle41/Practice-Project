@@ -13,15 +13,15 @@ const Slider = () => {
 
         <div className="carousel-inner">
             <div className="item active">
-                <img src="./1.jpeg" alt="nice"/>
+                <img src="./Practice-Project/1.jpeg" alt="nice"/>
             </div>
 
             <div className="item">
-                <img src="./1.jpeg" alt="nice" />
+                <img src="./Practice-Project/1.jpeg" alt="nice" />
             </div>
                 
             <div className="item">
-                <img src="./1.jpeg" alt="nice" />
+                <img src="./Practice-Project/1.jpeg" alt="nice" />
             </div>
         </div>
 
