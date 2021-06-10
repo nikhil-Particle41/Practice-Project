@@ -13,12 +13,12 @@ const Header = () => {
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button> 
-                <Link className="navbar-brand" exact to="/" onClick={() => changeColor("#9c27b0")}>WebSiteName</Link>
+                <Link className="navbar-brand" exact to="/Practice-Project/" onClick={() => changeColor("#9c27b0")}>WebSiteName</Link>
             </div>
             <div class="navbar-collapse collapse" id="navbar">
                 <ul className="nav navbar-nav">
                     <li>
-                        <NavLink className="nav-link" exact to="/" onClick={() => changeColor("#362641")}>HOME</NavLink>
+                        <NavLink className="nav-link" exact to="/Practice-Project/" onClick={() => changeColor("#362641")}>HOME</NavLink>
                     </li>
                     <li>
                         <NavLink className='nav-link' to="/contact" onClick={() => changeColor("#725686")}>CONTACT US</NavLink>
